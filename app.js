@@ -4,6 +4,11 @@ const display = document.querySelector("#resultado");
 const displayEstilo = document.querySelector("#display");
 const temas = document.querySelectorAll(".tema");
 console.log(temas);
+const botonReset = document.querySelector("#botonReset");
+
+botonReset.addEventListener("click", ()=> {
+    display.innerHTML = 0
+})
 
 const operacionesMatematicas = (primerValor, operacion, segundoValor) => {
     const resultado = eval (primerValor + operacion + segundoValor);

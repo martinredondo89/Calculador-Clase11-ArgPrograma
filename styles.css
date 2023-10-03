@@ -7,22 +7,49 @@
 }
 
 #display {
+    display: flex;
     width: 250px;
     height: 100px;
     background-color: rgb(48,47,47);
-    text-align: center;
     margin-left: 26px;
     position: relative;
     top: 50px;
     color: aliceblue;
     border-radius: 10px;
-    
+    justify-content: center;
 }
+
+h4{
+    font-size: 25px;
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+}
+
 #botones{
     display: flex;
     justify-content: space-between;
     margin: 35px;
+
 }
+
+#botones button{
+    background-color: skyblue;
+    width: 35px;
+    height: 35px;
+    box-shadow: black;
+}
+
+.divBotonReset {
+    display: flex;
+    justify-content: center;
+}
+
+#botonReset {
+    background-color: red;
+    width: 70px;
+    height: 35px;
+}
+
 
 .displayEstiloPlaya {
     background: linear-gradient(rgb(33,157,234), rgb(70,69,69));
@@ -49,32 +76,11 @@ input {
     height: 40px;
     border-radius: 5px;
     font-size: small;
-    font-family: cursive;
+    font-family: Tahoma, sans-serif;
     background-color: rgb(222,216,216);
     text-align: center;
     position: relative;
     margin-left: 28px;
-}
-
-#sumar {
-    background-color: skyblue;
-    width: 35px;
-    height: 35px;
-}
-#restar {
-    background-color: skyblue;
-    width: 35px;
-    height: 35px;
-}
-#multiplicar {
-    background-color: skyblue;
-    width: 35px;
-    height: 35px;
-}
-#dividir {
-    background-color: skyblue;
-    width: 35px;
-    height: 35px;
 }
 
 #Playa, #Jungla, #Cafe, #Oficina {
